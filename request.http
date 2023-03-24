@@ -1,1 +1,12 @@
-GET http://localhost:3000
+### get all pets
+GET http://localhost:3000/pets
+###
+http://localhost:3000/pets/0
+###
+http://localhost:3000/pets/1
+###
+http://localhost:3000/pets/2
+###
+http://localhost:3000/pets/-2
+###
+http://localhost:3000/pets/500

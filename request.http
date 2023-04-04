@@ -10,3 +10,28 @@ http://localhost:3000/pets/2
 http://localhost:3000/pets/-2
 ###
 http://localhost:3000/pets/500
+###
+http://localhost:3000/pets/3
+
+###
+### create pet
+POST http://localhost:3000/pets
+Content-Type: application/json
+
+{
+  "age": 5,
+  "kind": "Giraffe",
+  "name": "Long Neck"
+}
+
+### create pet
+PATCH http://localhost:3000/pets/2
+Content-Type: application/json
+
+{
+  "name": "Shiny"
+}
+
+### delete pet
+DELETE http://localhost:3000/pets/2
+Content-Type: application/json

@@ -1,21 +1,21 @@
 ### get all pets
-GET http://localhost:3000/pets
+GET http://localhost:3000/api/pets
 ###
-http://localhost:3000/pets/0
+http://localhost:3000/api/pets/0
 ###
-http://localhost:3000/pets/1
+http://localhost:3000/api/pets/1
 ###
-http://localhost:3000/pets/2
+http://localhost:3000/api/pets/2
 ###
-http://localhost:3000/pets/-2
+http://localhost:3000/api/pets/-2
 ###
-http://localhost:3000/pets/500
+http://localhost:3000/api/pets/500
 ###
-http://localhost:3000/pets/3
+http://localhost:3000/api/pets/3
 
 ###
 ### create pet
-POST http://localhost:3000/pets
+POST http://localhost:3000/api/pets
 Content-Type: application/json
 
 {
@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ### create pet
-PATCH http://localhost:3000/pets/2
+PATCH http://localhost:3000/api/pets/2
 Content-Type: application/json
 
 {
@@ -33,5 +33,5 @@ Content-Type: application/json
 }
 
 ### delete pet
-DELETE http://localhost:3000/pets/2
-Content-Type: application/json
+DELETE http://localhost:3000/api/pets/6
+
